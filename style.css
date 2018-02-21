@@ -1,0 +1,141 @@
+
+html {
+	margin: 0;
+	padding: 0;
+}
+	
+body {
+	font-family:Arial, Helvetica;	
+	line-height:18px;
+	font-size:12px;
+	color: #06185c; 
+	background: #c5e2ac url(body_bg.jpg) no-repeat top center; 
+	margin: 0; 
+	padding: 0;
+}
+
+body a:link, a:active, a:visited{
+	text-decoration:none;
+	color:#8f2123;
+}
+
+body a:hover{
+	text-decoration:underline;
+}
+
+p{
+	margin: 10px;
+	padding: 0;
+}
+h1,h2{
+    display: inline;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+li {
+	background: url(bullet.gif) left center no-repeat;
+	padding-left: 7px;
+	margin-bottom: 5px;
+}
+
+abbr {
+	border-bottom: none;
+}
+.page-wrapper { 
+	margin: auto;
+	width:892px;
+    background:url(content_bg_top.jpg) no-repeat top center;
+	position:relative;
+}
+
+.intro{
+	width:892px;
+	height:451px;
+}
+
+header {
+	background:url(header_what_about.gif) rgb(146, 169, 190) no-repeat top center;
+	height:20px;
+	overflow:visible;
+	position:relative;
+	top:162px;
+    left:205px;
+    right: 200px;
+	width:127px;
+}
+
+h1, h2 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: visible;	
+}
+
+.summary {
+	display:none;
+}
+
+.preamble{
+	padding:240px 100px 0 205px;
+}
+
+.preamble p:nth-child(2){
+	margin-top: 20px;
+}
+
+.supporting{
+	background-image:url(content_tile.jpg);
+	height:100%;
+}
+
+.explanation {
+	padding:50px 100px 30px 205px;
+	background:url(content_bg_bottom.jpg) top no-repeat;
+	height:100%;
+}
+
+
+
+footer{
+	padding:10px;
+	text-align:center;
+}
+
+.sidebar {
+	position:absolute;
+	width:150px;
+	top:403px;
+	z-index:5;
+	color: #b64141;
+	font-size:20px;
+	left: 25px;
+	height:550px;
+	line-height:23px;
+}
+
+.sidebar a:link, a:active, a:visited {
+	color:#196303;
+	text-decoration:none;
+}
+
+.sidebar a:hover{
+	text-decoration: underline;
+}
+
+.design-selection{
+	background:url(header_select_design.gif) top left no-repeat;
+	margin: 5px 0 0 0;
+	padding: 20px 0 0 0;
+	width:150px;
+}
+
+.design-archives{
+	background:url(header_archives.gif) top left no-repeat;
+	margin: 10px 0 0 0;
+	padding: 30px 0 0 0;
+	width:150px;
+}
+
